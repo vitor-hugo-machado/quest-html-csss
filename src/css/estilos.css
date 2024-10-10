@@ -1,0 +1,89 @@
+body{
+    
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-color: #674BAF;
+    font-family: "open sans", sans-serif;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin: 30px auto 30px 60px;
+}
+
+.main{
+    margin:0 auto 0 60px ;
+    display: flex;
+}
+
+.main .text{
+    display: flex;
+    margin: 25px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.main .text h2{
+    font-size: 3em;
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+
+.main .text p{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+
+.main .text .btn-register{
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    padding: 15px 80px;
+    border-radius: 70px;
+    margin-top: 28px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 1px 1px 10px #000;
+
+}
+
+.main .text .btn-register:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.container-footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    padding:  0 100px;
+    gap: 20px;
+}
+
+.container-footer a{
+    color: #fff;
+    font-size: 20px 40px 40px auto;
+}
+
+.container-footer a:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+.container-footer .social{
+    border: 3px solid #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
